@@ -1,0 +1,33 @@
+<!-- dogGuessGame.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Guessing Game</title>
+    <link rel="stylesheet" href="dogGuessGame.css">
+  </head>
+  <body>
+    <div class="game-container">
+      <h1 id="game-header">Dog Breed Guessing Game</h1>
+      <div id="timer">Time: 00:00</div>
+      <img id="dog-image" src="" alt="Dog Image">
+      <div class="options">
+        <button id="option1"></button>
+        <button id="option2"></button>
+        <button id="option3"></button>
+        <button id="option4"></button>
+      </div>
+      <p id="result"></p>
+      <button id="next-question">Next Question</button>
+      <div id="results-page" style="display: none;">
+        <h2>Game Results</h2>
+        <p id="final-score"></p>
+        <p id="total-time"></p>
+        <button id="play-again">Play Again</button>
+      </div>
+    </div>
+
+    <script src="dogGuessGame.js"></script>
+  </body>
+</html>
